@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <base href="http://localhost:8000/Library-Management-System/">
+
+
+</head>
+<body>
+    <form action="loginServlet" method="post">
+        <label>用户名：</label>
+        <input type="text" placeholder="请输入用户名"
+            autocomplete="off" tabindex="1" name="username"/>
+        <br/><br/>
+        <label>密码：</label>
+        <input type="password" placeholder="请输入密码"
+            autocomplete="off" tabindex="1" name="password"/>
+        <br/><br/>
+        <input type="submit" value="登录" id="sub_btn"/>
+    </form>
+</body>
+</html>
